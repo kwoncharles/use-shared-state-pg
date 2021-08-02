@@ -1,0 +1,54 @@
+{
+  "name": "use-shared-state",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "engines": {
+    "node": ">=10.13.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "eslint"
+    ]
+  },
+  "dependencies": {
+    "next": "11.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.14.8",
+    "@types/node": "16.4.10",
+    "@types/react": "17.0.15",
+    "@types/react-dom": "17.0.9",
+    "@typescript-eslint/eslint-plugin": "4.28.5",
+    "@typescript-eslint/parser": "4.28.5",
+    "autoprefixer": "10.3.1",
+    "eslint": "7.32.0",
+    "eslint-config-airbnb-typescript": "12.3.1",
+    "eslint-plugin-import": "2.23.4",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-react": "7.24.0",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "husky": "4.3.8",
+    "lint-staged": "11.1.1",
+    "postcss": "8.3.6",
+    "postcss-custom-properties": "11.0.0",
+    "postcss-flexbugs-fixes": "5.0.2",
+    "postcss-nested": "5.0.6",
+    "stylelint": "13.13.1",
+    "stylelint-config-standard": "22.0.0",
+    "tailwindcss": "2.2.7",
+    "typescript": "4.3.5"
+  }
+}
