@@ -69,8 +69,12 @@ module.exports = {
     /* next.js Link 기능과 충돌 */
     'jsx-a11y/anchor-is-valid': 'off',
 
+    /* */ 
+    'symbol-description': 'off',
+
     /* 이하 Typescript */
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-namespace': 'off',
+    '@typescript-eslint/no-use-before-define': 'off',
   }
 }
